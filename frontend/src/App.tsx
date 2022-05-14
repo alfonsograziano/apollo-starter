@@ -36,7 +36,7 @@ function App() {
   return (
     <div>
       {
-       tracksQuery?.data?.tracksForHome.map((track: any) => <p>{track.title}</p>)
+        tracksQuery?.data?.tracksForHome.map((track: any) => <p>{track.title}</p>)
       }
     </div>
   )
